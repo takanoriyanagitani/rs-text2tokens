@@ -3,7 +3,16 @@ name = "rs-text2tokens"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the text to the segments."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-text2tokens"
+homepage = "https://github.com/takanoriyanagitani/rs-text2tokens"
+documentation = "https://docs.rs/rs-text2tokens/latest"
+keywords = ["text", "token", "segment"]
+
 exclude = [
+  "rs-text2tokens.wasm",
+  "opt.wasm",
 ]
 
 [lints.rust]
